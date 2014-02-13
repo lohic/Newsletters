@@ -32,7 +32,7 @@ echo utf8_encode(strftime('%b %d, %Y',$timestamp));
 ?>
 ```
 - adresse des images du dossier template :
-```html
+```php
 <?php echo $template;?>images/
 ```
 - insérer une liste d'actualités/événements/item RSS :
