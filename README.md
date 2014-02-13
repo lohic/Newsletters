@@ -15,6 +15,7 @@ Structure d'un gabarit de newsletter :
 - bloc2.php
 - …
 
+#index.php
 Le fichier index sert de structure globale.
 Voici les fonctions et variables que l'on peux récupérer dans index.php :
 - l'url de l'archive :
@@ -38,3 +39,4 @@ echo utf8_encode(strftime('%b %d, %Y',$timestamp));
 ```php
 <?php $news->set_contenu("nom_de_la_liste","fichier_bloc.php"); ?>
 ```
+#fichier_bloc.php
