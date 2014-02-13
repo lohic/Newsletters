@@ -40,3 +40,5 @@ echo utf8_encode(strftime('%b %d, %Y',$timestamp));
 <?php $news->set_contenu("nom_de_la_liste","fichier_bloc.php"); ?>
 ```
 #fichier_bloc.php
+Un fichier de bloc, est l'élément qui va être répété pour chaque item actualités/événements/item. Il peut être différent pour chaque ```php $news->set_contenu ```
+
