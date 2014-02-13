@@ -27,7 +27,6 @@ Voici les fonctions et variables que l'on peux récupérer dans index.php :
 setlocale(LC_ALL, 'en_EN');
 $timestamp_tab = explode('-',$ladate);
 $timestamp = mktime(0, 0, 0, $timestamp_tab[1], $timestamp_tab[2], $timestamp_tab[0]); 
-
 echo utf8_encode(strftime('%b %d, %Y',$timestamp));
 ?>
 ```
@@ -37,7 +36,5 @@ echo utf8_encode(strftime('%b %d, %Y',$timestamp));
 ```
 - insérer une liste d'actualités/événements/item RSS :
 ```php
-<?php
-$news->set_contenu("nom_de_la_liste","fichier_bloc.php");
-?>
+<?php $news->set_contenu("nom_de_la_liste","fichier_bloc.php"); ?>
 ```
