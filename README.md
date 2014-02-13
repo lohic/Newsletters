@@ -45,5 +45,6 @@ Voici les fonctions et variables que l'on peux récupérer dans un bloc :
 
 ref | code
 ----|-----
-id de l'item | <?php echo $id?>
+id de l'item | ```<?php echo $id?>```
+titre de l'item | ```<?php echo $titre?>```
 
