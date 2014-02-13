@@ -45,7 +45,7 @@ echo utf8_encode(strftime('%b %d, %Y',$timestamp));
 Un fichier de bloc, est l'élément qui va être répété pour chaque item actualités/événements/item. Il peut être différent pour chaque ```$news->set_contenu ```.
 Voici les fonctions et variables que l'on peux récupérer dans un bloc :
 
-ref | code | valeurs attendues (si necessaire)
+ref | code | valeurs attendues (si nécéssaire)
 ----|------|-----
 id de l'item | ```<?php echo $id?>``` | int
 titre de l'item | ```<?php echo $titre?>``` | texte
