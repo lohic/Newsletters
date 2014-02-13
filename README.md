@@ -53,6 +53,7 @@ le sous-titre | ```<?php echo $soustitre?>``` | texte ou empty
 le texte | ```<?php echo $texte?>``` | html / tinymce
 origine de l'item | ```<?php echo $origine?>```| evenement_db, evenement_new_db, actu, rss
 inscription ouvertes ou fermées | ```<?php $isInscription?>``` | 1 ou 0
+informations additionelles pour les actualités | ```<?php echo $info?>``` | html
 
 
 
