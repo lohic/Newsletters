@@ -31,7 +31,11 @@ $timestamp = mktime(0, 0, 0, $timestamp_tab[1], $timestamp_tab[2], $timestamp_ta
 echo utf8_encode(strftime('%b %d, %Y',$timestamp));
 ?>
 ```
-- mettre une liste d'actualités/événements/item RSS :
+- adresse des images du dossier template :
+```html
+<?php echo $template;?>images/
+```
+- insérer une liste d'actualités/événements/item RSS :
 ```php
 <?php
 $news->set_contenu("nom_de_la_liste","fichier_bloc.php");
