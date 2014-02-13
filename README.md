@@ -23,9 +23,11 @@ Voici les fonctions et variables que l'on peux récupérer dans index.php :
 ```
 - écrire la date
 ```php
+<?php
 setlocale(LC_ALL, 'en_EN');
 $timestamp_tab = explode('-',$ladate);
 $timestamp = mktime(0, 0, 0, $timestamp_tab[1], $timestamp_tab[2], $timestamp_tab[0]); 
 
 echo utf8_encode(strftime('%b %d, %Y',$timestamp));
+?>
 ```
