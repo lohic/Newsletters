@@ -15,7 +15,7 @@ Structure d'un gabarit de newsletter :
 - bloc2.php
 - …
 
-#index.php
+##index.php
 Le fichier index sert de structure globale.
 Voici les fonctions et variables que l'on peux récupérer dans index.php :
 - l'url de l'archive :
@@ -39,9 +39,10 @@ echo utf8_encode(strftime('%b %d, %Y',$timestamp));
 ```php
 <?php $news->set_contenu("nom_de_la_liste","fichier_bloc.php"); ?>
 ```
-#fichier_bloc.php
+##fichier_bloc.php
 Un fichier de bloc, est l'élément qui va être répété pour chaque item actualités/événements/item. Il peut être différent pour chaque ```$news->set_contenu ```.
 Voici les fonctions et variables que l'on peux récupérer dans un bloc :
+
 ref | code
 ----|-----
 id de l'item | <?php echo $id?>
