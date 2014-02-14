@@ -1,5 +1,6 @@
 <?php
-	include_once('../vars/constantes_vars.php');
+	//include_once('../vars/constantes_vars.php');
+	include_once('../vars/config.php');
 	include_once("../classe/classe_template.php");
 	include_once("../vars/statics_vars.php");
 	$gabarit = new template();

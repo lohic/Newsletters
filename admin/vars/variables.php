@@ -1,1 +1,0 @@
-<?php $vars = array();?>
