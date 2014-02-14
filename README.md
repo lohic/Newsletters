@@ -40,10 +40,28 @@ echo utf8_encode(strftime('%b %d, %Y',$timestamp));
 ```php
 <?php echo $template;?>images/
 ```
+- insérer un sommaire
+```php
+<?php
+  $style['li']   = "font-weight:bold;font-size:14px;";
+	$style['date'] = "";
+	$style['ul']   = "color:#cc0099;margin:0;";
+	$news->set_sommaire("nom_de_la_liste",false,$style,4);
+?>
+```
 - insérer une liste d'actualités/événements/item RSS
 ```php
 <?php $news->set_contenu("nom_de_la_liste","fichier_bloc.php"); ?>
 ```
+- pour récupérer l'image d'entête :
+```php
+<?php $header = $news->get_header("image_par_defaut.jpg"); echo $header->image;?>
+```
+- et la hauteur de l'image :
+```php
+<?php echo $header->h;?>
+```
+
 
 ###fichier_bloc.php
 Un fichier de bloc, est l'élément qui va être répété pour chaque item actualités/événements/item. Il peut être différent pour chaque ```$news->set_contenu ```.
@@ -61,8 +79,8 @@ inscription ouvertes ou fermées | ```<?php $isInscription?>``` | 1 ou 0
 lien pour s'inscrire à l'événement | ```http://www.sciencespo.fr/evenements/inscription/inscription_multiple.php?id=<?php echo $id_event;?>``` | 
 informations additionelles pour les actualités | ```<?php echo $info?>``` | html
 url de l'item | ```<?php echo $URL?>``` | url ou empty
-champ lien de l'actualité | <?php echo $linkToActu?>```| url ou empty
-texte du lien de l'atualité | <?php echo $moreTXT?>``` | texte ou empty
+champ lien de l'actualité | ```<?php echo $linkToActu?>```| url ou empty
+texte du lien de l'atualité | ```<?php echo $moreTXT?>``` | texte ou empty
 
 
 
