@@ -76,7 +76,8 @@ le sous-titre | ```<?php echo $soustitre?>``` | texte ou empty
 le texte | ```<?php echo $texte?>``` | html / tinymce
 origine de l'item | ```<?php echo $origine?>```| evenement_db, evenement_new_db, actu, rss
 inscription ouvertes ou fermées | ```<?php $isInscription?>``` | 1 ou 0
-lien pour s'inscrire à l'événement | ```http://www.sciencespo.fr/evenements/inscription/inscription_multiple.php?id=<?php echo $id_event;?>``` | 
+lien pour s'inscrire à l'événement | ```http://www.sciencespo.fr/evenements/
+inscription/inscription_multiple.php?id=<?php echo $id_event;?>``` | 
 informations additionelles pour les actualités | ```<?php echo $info?>``` | html
 url de l'item | ```<?php echo $URL?>``` | url ou empty
 champ lien de l'actualité | ```<?php echo $linkToActu?>```| url ou empty
