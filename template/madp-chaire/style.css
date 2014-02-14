@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/********************/
+/*  CSS NEWSLETTER  */
+/********************/
+
+body{
+	color: #666666;
+	margin:0;
+	background:#CCCCCC;
+}
+
+.newsletter,.newsletter td,.newsletter th {
+	color: #666666;
+}
+.newsletter {
+	margin: 0px;
+	background:#CCCCCC;
+	font-family:Arial, sans-serif;
+	font-size:14px;
+}
+
+
+.newsletter a, .newsletter a:hover, .newsletter .bloc a:hover{
+	color:#660099;
+}
+
+.newsletter img{
+	border:0;
+}
+
+.newsletter h2{
+	font-size:14px;
+	margin-top:0;
+}
+
+.newsletter .date{
+}
+
+.newsletter .texte{
+}
+.newsletter ul{
+	list-style:square;
+	list-style-position:outside;
+	padding:0 0 0 16px;
+}
+
+.newsletter ul {
+}
+
+.newsletter ul li{
+	font-size:14px;
+	font-weight:bold;
+}
+
+.newsletter ul li a{
+	color: #660099;
+	padding:0;
+}
+.newsletter .bloc a{
+	color: #660099;
+}
+
+
+.newsletter ul li.other{
+}

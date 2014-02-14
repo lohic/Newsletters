@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/********************/
+/*  CSS NEWSLETTER  */
+/********************/
+
+body{
+	color: #CCCCCC;
+	margin:0;
+	background:#CCCCCC;
+}
+
+.newsletter,.newsletter td,.newsletter th {
+	color: #CCCCCC;
+}
+.newsletter {
+	margin: 0px;
+	background:#CCCCCC;
+	font-family:Arial, sans-serif;
+	font-size:14px;
+}
+
+
+.newsletter a, .newsletter a:hover, .newsletter .bloc a:hover{
+	color:#da2e00;
+}
+
+.newsletter img{
+	border:0;
+}

@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:#E6E7E8;
+}
+
+
+
+a{
+	color:#CB021A;
+	text-decoration:none;
+}
+a:hover{
+	color:#C00;
+}
+
+#page{
+	background:#FFF;
+}
+
+
+#header{
+	background:#C00;
+}
+
+#header h1{
+	color:#FFF;
+	font-weight:bold;
+}
+#header h1 a{
+	color:#FFF;
+}
+
+#header #logout_btn{
+	color:#FFF;
+}
+
+#header>#select_group{
+	color:#FFF;
+}
+
+
+/* ################################################### */
+/* ############## MENUS ############################## */
+/* ################################################### */
+
+/*MENU HAUT */
+#menuHaut{
+	background:#1a1a1a;
+	text-transform:uppercase;
+}
+
+#menuHaut #menuDown li a {
+	background:#1a1a1a;
+	color:#FFF;
+}
+
+#menuHaut #menuDown li a:hover span {
+	text-decoration:underline;
+}
+
+#menuHaut #menuDown li a.select {
+	background:#C00;
+}
+
+#menuHaut #menuDown li ul {
+	background-color:#1a1a1a;
+}
+
+#menuHaut #menuDown li ul li{
+	color:#ccc;
+}
+
+#menuHaut #menuDown li ul li a {
+	color:#FFF;
+}
+
+#menuHaut #menuDown li ul li a.select {
+	background:#C00;
+}
+
+/*****************************************
+************* GLOBAL NAV *****************
+*****************************************/
+
+#newsletter{
+	background:#CCC;
+}
+
+#footer{
+	background:#C00;
+}
+
+
+.admin{
+	color:#000;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.admin hr{
+	border-color:#fff;
+}
+
+
+.placeHolder div {
+	background-color: #FF6 !important;
+	border: solid 0px gray !important;
+}
+
+/* SPLITTER */
+
+#MySplitter {
+	/*height: 200px;*/
+}
+
+#LeftPane {
+	background: #CCC;
+}
+
+#RightPane {
+	background: #000;
+}
+
+
+#MySplitter .vsplitbar {
+	background-color: #000;
+}
+#MySplitter .vsplitbar.active {
+	background-color: #900;
+	opacity: 0.7;
+}
+
+
+/********************/
+/*  CSS NEWSLETTER  */
+/********************/
+
+.newsletter,.newsletter td,.newsletter th {
+	color: #000;
+}
+.newsletter {
+	background:#e7e7e7;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+.newsletter a:link, .newsletter a:visited, .newsletter a:hover{
+	color:#F00;
+}
+
+.ui-sortable-placeholder{
+	background:#6F0;
+	opacity:0.5;
+}
+
+.news_list{
+	border-color:#336;
+}
+
+li.item_sort{
+	background:#6FF;
+	color:#000;
+}
+
+li span.trash{
+	background-color:#F00;
+}
+
+li span.handler{
+	background-color:#F60;
+}
+
+/***************************************************
+************* LISTING ******************************
+***************************************************/
+
+
+.infos p.jour{
+	color:#555555;
+}
+
+.infos .titre_heure p.titre{
+	color:#CB021A;
+}
+
+.infos .titre_heure p.titre a{
+	color:#CB021A;
+}
+
+.infos .titre_heure p{
+	color:#555555;
+}
+
+
+.infos_large p{
+	color:#333333;
+}
+
+.infos_large a{
+	color:#333333;
+}
+
+.listItemRubrique1{
+	background:#F9E5E8;
+}
+
+.listItemRubrique2{
+	background:#FFFFFF;
+}
+
+
+
+/*****************/
+#content_login {
+  background:#000;
+}
+
+#content_login label {
+  color:#FFF;
+}
+
+#content_login input[type="submit"] {
+  background:#000;
+  color:#FFF;
+}
+
+fieldset {
+	background: #fbf5f6;
+}
+
+fieldset p, fieldset label {
+    color: #333333;
+}
+p.legend {
+    color: #333333;
+}
+
+
+.buttonenregistrer, .buttonsupprimer {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+
+div.options {
+    background: #F9E5E8;
+}
+
+p.intro_modif {
+    color: #CB021A;
+}
+
+.form_container h3 {
+    color: #000000;
+}
+
+.alerte{
+	color:#FFF;
+	font-style:italic;
+}

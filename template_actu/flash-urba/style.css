@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	background:#CCCCCC;
+	font-size:14px;
+}
+
+ul,li,p,form,input,label{
+	margin:0px;
+	padding:0px;
+	font-size:1em;
+	font-weight:normal;
+	list-style:none;
+}
+
+#actu{
+	width:800px;
+	margin:auto;
+}
+
+
+#header{
+	background:#C00 url(img/header.gif) no-repeat left;
+	height:90px;
+}
+
+#footer{
+	background:#C00 url(img/foot.gif) no-repeat left;
+	height:95px;
+}
+
+#content{
+	margin:0 15px;
+	background:#FFF;
+	padding:15px;
+}
+
+#actu #content>p.date{
+	text-align:right;
+	margin:15px 0;
+	font-size:15px;
+	text-transform:uppercase;
+	font-style:italic;
+}
+
+#actu #content>h1{
+	text-transform:uppercase;
+	font-size:30px;
+	line-height:30px;
+	margin:0;
+}
+
+#actu #content>h2{
+	font-style:italic;
+	font-weight:normal;
+	font-size:20px;
+	line-height:20px;
+	margin:5px;
+}
+
+#actu #content>p, #actu #content>div{
+	font-size:15px;
+}
+
+#actu #content>div img{
+	margin:3px 15px 15px 0;
+	float:left;
+}
+
+#actu #content>p.image{
+	text-align:center;
+	margin:15px 0;
+}
+
+#actu div.reset{
+	clear:both;
+}
+
+#actu #content>p.lien{
+	margin:15px 0;
+	text-align:right;
+}
+
+#actu #content>p.lien a, #actu #content p a{
+	color:#C00;
+	text-decoration:none;
+	font-style:italic;
+}
+#actu #content>p.lien a:hover, #actu #content p a:hover{
+	text-decoration:underline;
+}
+
+ul.medialist{
+	font-size:14px;
+	padding-top:5px;
+	margin-top:5px;
+	border-top:dotted 1px;
+	clear:both;
+}
+
+ul.medialist li{
+	text-transform:uppercase;
+	margin:4px 0 4px 0px;
+	margin-left:4px;
+}

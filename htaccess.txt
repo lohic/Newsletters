@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^archive-([a-z0-9]+)\.html$  admin/show.php?unique=$1  [L] 

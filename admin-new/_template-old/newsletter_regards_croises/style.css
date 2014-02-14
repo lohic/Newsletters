@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/********************/
+/*  CSS NEWSLETTER  */
+/********************/
+
+.newsletter,.newsletter td,.newsletter th {
+	color: #000;
+}
+.newsletter {
+	margin: 0px;
+	background:#e7e7e7;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:12px;
+}
+.newsletter h2{
+	font-size:14px;
+	margin-top:0;
+}
+
+.newsletter .date{
+}
+
+.newsletter .texte{
+}
+.newsletter ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.newsletter ul li{
+	padding:8px 0px 8px 10px;
+}
+
+.newsletter ul li.other{
+}
+
+.newsletter a:link, .newsletter a:visited, .newsletter a:hover{
+	color:#F00;
+}

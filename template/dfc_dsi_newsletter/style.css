@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/********************/
+/*  CSS NEWSLETTER  */
+/********************/
+
+body{
+	color: #666666;
+	margin:0;
+	background:#CCCCCC;
+}
+
+.newsletter,.newsletter td,.newsletter th {
+	color: #666666;
+}
+.newsletter {
+	margin: 0px;
+	background:#CCCCCC;
+	font-family:Arial, sans-serif;
+	font-size:14px;
+}
+
+
+.newsletter a, .newsletter a:hover, .newsletter .bloc a:hover{
+	color:#c00;
+}
+
+.newsletter img{
+	border:0;
+}
+
+.newsletter h2{
+	font-size:14px;
+	margin-top:0;
+}
+
+.newsletter .date{
+}
+
+.newsletter .texte{
+}
+.newsletter ul{
+	list-style:square;
+	list-style-position:outside;
+	padding:0 0 0 16px;
+}
+
+.newsletter ul#more_evenements_suite_list li, .newsletter span.evenements{
+	color:#c00;
+	margin:5px 0;
+}
+.newsletter ul#more_une_suite_list li, .evenements span.une{
+	color:#c00;
+	margin:5px 0;
+}
+.newsletter ul#more_vie_etudiante_suite_list li, .evenements span.vie{
+	color:#c00;
+	margin:5px 0;
+}
+
+.newsleter ul {
+}
+
+.newsletter ul li{
+	font-size:14px;
+	font-weight:bold;
+}
+
+.newsletter ul li a{
+	color: #666666;
+	padding:0;
+}
+.newsletter .bloc a{
+	color: #666666;
+}
+
+
+.newsletter ul li.other{
+}
