@@ -510,7 +510,7 @@ class Dest {
 		$filter = $this->check_groupe_dest_rights($idUserGroupes);
 		
 		
-		$sql_liste_dest = "SELECT DISTINCT D.id, D.type, D.nom, D.mail
+		$sql_liste_dest = "SELECT DISTINCT D.id, D.type, D.nom, D.mail, G.id AS groupe
 							FROM destinataires_tb AS D, rel_user_groupe_groupe_tb AS DG, rel_dest_groupe_tb AS R, destinataire_groupes_tb AS G
 							WHERE  D.id = R.id_dest
 							AND R.id_groupe = G.id
@@ -541,7 +541,8 @@ class Dest {
 		foreach($destinaire as $key => $value){
 			// $array->select	|	$array->value	|	$array->label	| $array->classe
 			$classe = isset($value->classe)?' class="'.$value->classe.'" ':'';
-			echo '<span><input type="checkbox" name="dest[]" value="'.$value->value.'" id="dest-'.$key.'" '.$classe.' /><label class="contact_label" for="'.$id.'-'.$key.'">'.$value->label.'</label></span>'."\n";
+			//echo '<span><input type="checkbox" name="dest[]" value="'.$value->value.'" id="dest-'.$key.'" '.$classe.' /><label class="contact_label" for="'.$id.'-'.$key.'">'.$value->label.'</label></span>'."\n";
+			echo '<span><input type="checkbox" name="dest[]" value="'.$value->value.'" id="dest-'.$key.'" '.$classe.' /><label class="contact_label" for="dest-'.$key.'">'.$value->label.'</label></span>'."\n";
 		}
 	}
 	
@@ -625,7 +626,8 @@ class Dest {
 			foreach($destinaire as $key => $value){
 				// $array->select	|	$array->value	|	$array->label	| $array->classe
 				$classe = isset($value->classe)?' class="'.$value->classe.'" ':'';
-				echo '<span><input type="checkbox" name="dest[]" value="'.$value->value.'" id="dest-'.$key.'" '.$classe.' checked="checked" /><label class="contact_label" for="'.$id.'-'.$key.'">'.$value->label.'</label></span><br/>'."\n";
+				//echo '<span><input type="checkbox" name="dest[]" value="'.$value->value.'" id="dest-'.$key.'" '.$classe.' checked="checked" /><label class="contact_label" for="'.$id.'-'.$key.'">'.$value->label.'</label></span><br/>'."\n";
+				echo '<span><input type="checkbox" name="dest[]" value="'.$value->value.'" id="dest-'.$key.'" '.$classe.' checked="checked" /><label class="contact_label" for="dest-'.$key.'">'.$value->label.'</label></span><br/>'."\n";
 				$i++;
 			}
 			

@@ -1,7 +1,7 @@
 <?php
 	include_once("../classe/classe_dest.php");
 	include_once("../vars/statics_vars.php");
-	include_once('../vars/constantes_vars.php');
+	//include_once('../vars/constantes_vars.php');
 	$dest	= new dest();
 	
 	$dest->set_core($core);
